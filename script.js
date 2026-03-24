@@ -104,11 +104,14 @@ document.addEventListener('DOMContentLoaded', () => {
             submissions.push({ ...data, timestamp: new Date().toISOString() });
             localStorage.setItem('humaniwork_signups', JSON.stringify(submissions));
 
-            // Show success state
+            // Show success state (uses i18n if available)
+            const t = typeof translations !== 'undefined' ? translations[currentLang] || {} : {};
+            const successTitle = t['form.success.title'] || "You're on the list.";
+            const successDesc = t['form.success.desc'] || "We'll be in touch when Humaniwork launches. Thank you for your interest.";
             form.innerHTML = `
                 <div class="form-success">
-                    <h3>You're on the list.</h3>
-                    <p>We'll be in touch when Humaniwork launches. Thank you for your interest.</p>
+                    <h3>${successTitle}</h3>
+                    <p>${successDesc}</p>
                 </div>
             `;
         });
