@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <!-- Top-left hexagon (outlined) -->
+  <path d="M168.5 58.5L243.5 101.8V188.4L168.5 231.7L93.5 188.4V101.8Z" stroke="#1B2A4A" stroke-width="22" stroke-linejoin="round" fill="none"/>
+  <!-- Accent line top-left -->
+  <line x1="125" y1="108" x2="145" y2="173" stroke="#1B2A4A" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Right hexagon (filled) -->
+  <path d="M331.5 168.5L406.5 211.8V298.4L331.5 341.7L256.5 298.4V211.8Z" fill="#1B2A4A"/>
+  <!-- Accent line right -->
+  <line x1="293" y1="218" x2="313" y2="283" stroke="#F7F8FA" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Bottom-left hexagon (outlined) -->
+  <path d="M168.5 278.5L243.5 321.8V408.4L168.5 451.7L93.5 408.4V321.8Z" stroke="#1B2A4A" stroke-width="22" stroke-linejoin="round" fill="none"/>
+  <!-- Accent line bottom-left -->
+  <line x1="125" y1="328" x2="145" y2="393" stroke="#1B2A4A" stroke-width="16" stroke-linecap="round"/>
+</svg>

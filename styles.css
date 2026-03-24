@@ -69,16 +69,9 @@ ul { list-style: none; }
     font-size: 1.15rem;
 }
 .logo-mark {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     width: 36px;
     height: 36px;
-    background: var(--color-primary);
-    color: white;
-    border-radius: 8px;
-    font-weight: 800;
-    font-size: 1.1rem;
+    object-fit: contain;
 }
 .logo-text { color: var(--color-primary); }
 .nav-right {
@@ -577,7 +570,6 @@ h2 {
     gap: 48px;
 }
 .footer-brand .logo { margin-bottom: 16px; }
-.footer-brand .logo-mark { background: var(--color-accent); }
 .footer-brand .logo-text { color: white; }
 .footer-tagline {
     font-size: 1rem;
