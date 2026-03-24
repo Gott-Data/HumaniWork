@@ -88,8 +88,8 @@ const translations = {
         "form.success.desc": "We'll be in touch when Humaniwork launches. Thank you for your interest.",
 
         // Footer
-        "footer.tagline": "Technology that works for everyone.",
-        "footer.tagline2": "Tecnología que trabaja para todos.",
+        "footer.tagline": "Spain's workforce is changing. We help it thrive.",
+        "footer.tagline2": "La fuerza laboral de España está cambiando. Ayudamos a que prospere.",
         "footer.platform": "Platform",
         "footer.how": "How It Works",
         "footer.early": "Early Access",
@@ -186,8 +186,8 @@ const translations = {
         "form.success.desc": "Te contactaremos cuando Humaniwork se lance. Gracias por tu interés.",
 
         // Footer
-        "footer.tagline": "Tecnología que trabaja para todos.",
-        "footer.tagline2": "Technology that works for everyone.",
+        "footer.tagline": "La fuerza laboral de España está cambiando. Ayudamos a que prospere.",
+        "footer.tagline2": "Spain's workforce is changing. We help it thrive.",
         "footer.platform": "Plataforma",
         "footer.how": "Cómo Funciona",
         "footer.early": "Acceso Anticipado",
